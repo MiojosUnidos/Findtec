@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+:root{
+    --cor_fonte: #6600FF;
+    --cor_linhas: #BD00FF;
+    --poppins: "Poppins", sans-serif;
+}
+body{
+    background-image: url(724388.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu{
+    padding: 20px;
+    background-color: #131313;
+}
+.li-title{
+    list-style: none;
+    padding-top: none;
+    padding-bottom: none;
+    padding-left: 35px;
+    padding-right: 450px;
+}
+#ul-menu > .li-menu, .li-title{
+    display: inline-block;
+}
+.li-menu{
+    list-style: none;
+    padding-left: 21px;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ul-menu > .li-menu{
+    position: relative;
+}
+.li-title > a{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    opacity:.9;
+}
+.li-menu > a{
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 19px;
+    color: #fff;
+}
+#ul-menu li ul{
+    position: absolute;
+    width: 200px;
+    top: 35px;
+    left: -1px;
+    background-color: #242424;
+    border-radius: 8px;
+    display: none;
+}
+#ul-menu > .li-menu:hover{
+    background-color: #fff;
+}
+.li-menu:hover > a{
+    color: var(--cor_fonte);
+}
+#gradient{
+    height: 4px;
+    width: 100%;
+    background-image: linear-gradient(to right, #c81d77, #6710c2);
+}
+#logo{
+    width: 230px;
+    height: 45px;
+}
